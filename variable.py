@@ -94,3 +94,5 @@ year = 2024
 
 print(year- age ,'년에 태어나셨구나')
 
+
+
