@@ -86,13 +86,17 @@ print('안녕하세요 이름을 입력해주세요')
 
 name = input()
 
-print('환영합니다', name, '님.',"나이도 냉큼 입력해주세요")
+print('반가워요', name, '님.',"나이도 냉큼 입력해주세요")
 
-age = input()
+age = int(input())
 
-year = 2024
+year = int(2024)
 
-print(year- age ,'년에 태어나셨구나')
+print(year - age ,'년에 태어나셨구나', '이제 안궁금 하니까 키나 후딱 알려줘봐요')
 
+tall = int(input())
 
+two_m = int(200)
+
+print('2미터까지',two_m - tall,'cm 남았구먼요?')
 
