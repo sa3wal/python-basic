@@ -82,21 +82,44 @@
 # ================================================================================== #
 
 
+# print('안녕하세요 이름을 입력해주세요')
+
+# name = input()
+
+# print('반가워요', name, '님.',"나이도 냉큼 입력해주세요")
+
+# age = int(input())
+
+# year = int(2024)
+
+# print(year - age ,'년에 태어나셨구나', '이제 안궁금 하니까 키나 후딱 알려줘봐요')
+
+# tall = int(input())
+
+# two_m = int(200)
+
+# print('2미터까지',two_m - tall,'cm 남았구먼요?')
+
+
+#========================================================================================#
+
+
 print('안녕하세요 이름을 입력해주세요')
 
 name = input()
 
 print('반가워요', name, '님.',"나이도 냉큼 입력해주세요")
 
-age = int(input())
+age = int(input())                                                                     # 나이를 int자료형으로 변환
 
-year = int(2024)
+year = int(2024)                                                                    
 
-print(year - age ,'년에 태어나셨구나', '이제 안궁금 하니까 키나 후딱 알려줘봐요')
+print(year - age ,'년에 태어나셨구나', '이제 안궁금 하니까 키나 후딱 알려줘봐요')         # 2024에서 나이를 뺌(int 끼리 계산)
 
-tall = int(input())
+tall = input("키 정보 cm단위로 입력 : ")                                                
+tall = float(tall)                                                                     # 입력된 값을 int,float 자료형으로 각각 변환
+tall = int(tall)
 
-two_m = int(200)
+two_m =int(200)                                                                  # 200 도 int,float 자료형으로 변환
 
-print('2미터까지',two_m - tall,'cm 남았구먼요?')
-
+print('2미터까지',two_m - tall,'cm 남았구먼요?')                                        # 200에서 tall을 뺌
