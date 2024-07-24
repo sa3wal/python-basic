@@ -126,13 +126,43 @@
 # or          : 양옆이 전부 False 면 False, 하나라도 True면 True
 # 실행 순서는 not, and, or 순서로 실행됨
 
-a = 10
-b = 5
-if((a == 10) and ( b== 5)):
-    print('a=10,b=5')
+# a = 10
+# b = 5
+# if((a == 10) and ( b== 5)):
+#     print('a=10,b=5')
 
-if((a==10) or (a==5)):
-    print('a와b 둘중 한개 이상은 10 입니다')
+# if((a==10) or (a==5)):
+#     print('a와b 둘중 한개 이상은 10 입니다')
 
-if(not(a == 5)):
-    print('a = 5가 아님')
+# if(not(a == 5)):
+#     print('a = 5가 아님')
+
+
+#========================================================================================#
+
+
+# print('두 개의 숫자를 입력해주새요')
+# number_1 = int(input())
+# number_2 = int(input())
+
+# int(number_1)
+# int(number_2)
+
+# print("어떤 계산을 실행할까요?")
+# print("[  1. 곱하기   2. 나누기  3. 더하기  4. 빼기  ]")
+# math = int(input())
+
+# if math == 1:
+#     # print(number_1 * number_2)
+#     print( "곱하기를 선택하셨습니다",number_1,"*",number_2, "=", number_1 * number_2)
+# elif math == 2:
+#     # print(number_1 / number_2)
+#     print( "나누기를 선택하셨습니다",number_1,"/",number_2,"=",number_1 // number_2)
+# elif math == 3:
+#     # print(number_1 + number_2)
+#     print( "더하기를 선택하셨습니다",number_1,"+",number_2,"=",number_1 + number_2)
+# elif math == 4:
+#     # print(number_1 - number_2)
+#     print( "빼기를 선택하셨습니다",number_1,"-",number_2,"=",number_1 / number_2)
+# else:
+#     print("다시 시도해주세요")
