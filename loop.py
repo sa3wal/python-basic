@@ -73,7 +73,68 @@
 
 # 1부터 100까지 분수를 출력
 
-i = 1
+# i = 1
+# while(i < 101):
+#     print(1/i)
+#     i += 1
+    
 
-while(i >= 1):
-    print(i)
+
+#========================================================================================#
+
+
+# 무한반복
+# python에서는
+# while(true):
+#     코드
+
+# 위와 같이  while에 True를 넣어 무한 반복이 가능함
+
+
+# countinue 와 break
+# continue, break는 for, while 둘다 사용 가능
+# continue
+# continue를 만나는 순간 다음 반복 진행
+
+# for i in range(0, 10, 1):
+#     if(i%2 == 0):
+#         continue        # 짝수일 때 다음 반복으로, 즉 짝수는 출력 안됨
+#     print(i)
+
+
+
+# break
+# break를 만나는 순간 반복문 종료
+
+# i = 0
+# while(True):
+#     print(i)
+#     if(i == 10):
+#         break
+#     i += 1
+
+#========================================================================================#
+
+
+while(True):
+    print('메뉴를 선택해 주세요')
+    print('1. hello 출력')
+    print('2. hi 출력')
+    print('3. Exit')
+    menu = int(input())
+
+    if(menu == 1):
+        print('hello')
+    elif(menu == 2):
+        print('hi')
+    elif(menu == 3):
+        print('메뉴 프로그램을 종료 합니다')
+        break
+    else:
+        print("잘못 입력했습니다. 1~3 숫자를 입력해 주세요")
+        print()
+        print()
+        continue
+
+    print()
+    print()
