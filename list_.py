@@ -71,6 +71,7 @@
 # avg = (score[0]+score[1]+score[2]+score[3]) / 4
 
 # print('평균은',avg,'이고',name[3],'가 가장 점수가 높습니다')
+# print(sum(score) / len(score))
 
 
 #========================================================================================#
@@ -121,16 +122,63 @@
 #========================================================================================#
 
 
-list0 = []
-print(list0)
-print()
+# list0 = []
+# print(list0)
+# print()
 
-print("Q1. append 함수를 사용해 list0에 1,2,3,4,5,6,7,8,9를 차례로 추가하시오(반복문을 사용해도 좋다)")
-for i in range(1,10,1):     # list0 을 변수로 삼는게 아니라 i라는 딴 변수를 하나 더 만들어서 쓰는거임
-    list0.append(i)
-print(list0)
-print()
+# print("Q1. append 함수를 사용해 list0에 1,2,3,4,5,6,7,8,9를 차례로 추가하시오(반복문을 사용해도 좋다)")
+# for i in range(1,10,1):     # list0 을 변수로 삼는게 아니라 i라는 딴 변수를 하나 더 만들어서 쓰는거임
+#     list0.append(i)
+# print(list0)
+# print()
 
-print('Q2.insert함수를 사용해 list0의 0번쨰에 0을 추가하시오')
-list0.insert(0,0)
-print(list0)
+# print('Q2.insert함수를 사용해 list0의 0번쨰에 0을 추가하시오')
+# list0.insert(0,0)
+# print(list0)
+# print()
+
+# print('Q3.del 함수를 이용해 list0의 3번째 원소를 삭제하시오.')
+# del(list0[3])
+# print(list0)
+# print()
+
+# print('Q4.del 함수를 이용하여 list0의 5번째 원소를 삭제하시오')
+# del(list0[5])
+# print(list0)
+# print()
+
+# print('Q5.remove 함수를 이용해 list0에서 1을 삭제하시오.')
+# list0.remove(1)
+# print(list0)
+# print()
+
+# print('Q6.index함수를 이용해 list0에서 5가 몇번째에 위치헀는지 출력하시오')
+# print(list0.index(5))
+# print()
+
+# print('Q7.index 함수를 이용해 list0에서 6이 존재하는지 확인하시오.몇번쨰에 위치했는지 출력하시오')
+# try :                       #try밑에있는 코드를 실행하는데
+#     print(list0.index(6))
+# except :                    #만약에 그 코드가 에러며는 except 밑에있는 코드 실행함
+#     print("error")
+# print()
+
+# print('Q8.len 함수를 이용해 list0의 원소의 개수를 출력하시오')
+# print(len(list0))
+# print()
+
+# print('Q9.print(list0)을 해서 출력하시오')
+# print(list0)
+
+
+#========================================================================================#
+
+
+print('점수를 입력하세요(끝낼시 0을 입력)')
+scores = []
+score = int(input())        # 숫자로 입력
+scores.append(score)
+
+print(scores)
+
+# print(sum(score) / len(score))
