@@ -177,8 +177,12 @@
 print('점수를 입력하세요(끝낼시 0을 입력)')
 scores = []
 score = int(input())        # 숫자로 입력
-scores.append(score)
 
-print(scores)
+while(score != 0):          # while은 값이 true일때 실하하는거임 if랑 같게 생각하면 안되엠
+    scores.append(score)
+    if score == 0:          # 변수명 햇갈리면 앙됨
+        break
+    score = int(input())    # score에다가 숫가값을 입력함 위 반복문은 입력된 값을 반목만 하지 값을 넣는게 아님
 
-# print(sum(score) / len(score))
+# print(scores)
+print('평균은', sum(scores) / len(scores), '입니다')
